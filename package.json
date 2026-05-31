@@ -1,0 +1,16 @@
+{
+  "name": "recipe-creator-tests",
+  "version": "1.0.0",
+  "description": "Playwright E2E tests for Recipe Creator with TestRail integration",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "playwright-testrail-reporter": "*"
+  }
+}
